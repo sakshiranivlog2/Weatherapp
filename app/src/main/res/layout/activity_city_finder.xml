@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#242343"
+    android:layout_height="match_parent"
+    tools:context=".cityFinder">
+
+    <ImageView
+        android:id="@+id/backButton"
+        android:layout_width="77dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="40dp"
+        android:src="@drawable/left"
+        android:background="#242343"
+        android:contentDescription="@string/todouu" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/edittextdesign"
+        android:hint="Enter City Name"
+        android:layout_marginLeft="30dp"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:imeOptions="actionGo"
+        android:id="@+id/searchCity"
+        android:inputType="textAutoCorrect"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="30dp"/>
+
+
+
+
+</RelativeLayout>
